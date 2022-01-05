@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-let N = parseInt(fs.readFileSync("/dev/stdin").toString());
+const N = parseInt(fs.readFileSync("/dev/stdin").toString());
 let result = N;
 let count = 0;
 
