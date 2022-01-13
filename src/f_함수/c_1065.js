@@ -3,7 +3,7 @@ const N = +fs.readFileSync("/dev/stdin").toString().trim();
 
 function isAnswer(num) {
   const numStr = `${num}`;
-  return +num < 100 || +numStr[0] - +numStr[1] === +numStr[1] - +numStr[2];
+  return num < 100 || +numStr[0] - +numStr[1] === +numStr[1] - +numStr[2];
 }
 
 let count = 0;
